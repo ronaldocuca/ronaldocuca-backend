@@ -14,7 +14,3 @@
 Route::get('/', function () {
     return "Ola Mundo";
 });
-
-Route::post('users/{id}', function ($id) {
-    return "Ola Post";
-});
